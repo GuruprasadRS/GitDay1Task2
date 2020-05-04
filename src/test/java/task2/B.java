@@ -10,5 +10,6 @@ public class B {
 		driver.get("https://twitter.com/login");
 		driver.manage().window().maximize();
 		driver.quit();
+		driver.close();
 	}
 }
