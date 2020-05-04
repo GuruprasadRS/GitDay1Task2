@@ -15,5 +15,6 @@ public class B {
 		String url = driver.getCurrentUrl();
 		System.out.println(url);
 		driver.quit();
+		driver.close();
 	}
 }
